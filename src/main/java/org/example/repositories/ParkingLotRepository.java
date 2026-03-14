@@ -14,7 +14,5 @@ public class ParkingLotRepository {
             return Optional.of(db.get(id));
         }
         return Optional.empty();
-
     }
-
 }

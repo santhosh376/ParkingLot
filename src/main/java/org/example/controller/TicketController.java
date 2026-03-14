@@ -18,7 +18,7 @@ public class TicketController {
         this.ticketService = ticketService;
     }
 
-    public IssueTicketResponse issueTicket(IssueTicketRequest request){
+    public IssueTicketResponse issueTicket(IssueTicketRequest request) {
 
         Ticket ticket = null;
         try {
@@ -39,7 +39,6 @@ public class TicketController {
                 .spotNumber(ticket.getParkingSpot().getSpotNumber())
                 .gateNumber(ticket.getGeneratedAt().getGateNumber())
                 .build();
-
 
 
     }

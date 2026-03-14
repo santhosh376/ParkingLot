@@ -7,7 +7,7 @@ import java.util.Date;
 
 @Getter
 @Setter
-public class Invoice {
+public class  Invoice {
     private String number;
     private Date exitTime;
     private Ticket ticket;
